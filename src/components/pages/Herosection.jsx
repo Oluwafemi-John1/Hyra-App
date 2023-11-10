@@ -37,6 +37,14 @@ const Herosection = () => {
                                     <img src={image6} className="img-fluid p-lg-2 p-4" alt="child image 6"/>
                                 </div>
                             </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
                         </div>
                     </div>
                     <div className="col-lg-6 col-12 text-center text-lg-start d-lg-none d-md-block" id='bigHero'>
