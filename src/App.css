@@ -1,3 +1,7 @@
+* {
+    overflow-x: hidden;
+}
+
 /* <=============== Navbar Starts ==============> */
 
 .hyra {
@@ -61,6 +65,26 @@
     font-weight: 700;
     line-height: 48px;
     /* 120% */
+}
+
+.smallHero {
+    color: #464647;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+@media screen and (min-width: 992px) {
+    #bigHero {
+        padding: 50px 120px !important;
+    }
+
+    .smallHero {
+        /* padding-right: 20px !important; */
+    }
 }
 
 
