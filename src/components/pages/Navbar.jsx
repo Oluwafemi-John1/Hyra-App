@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -9,29 +10,22 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <a className="navbar-brand col-lg-3 me-0" href="#"><h3 className='ms-2'>Hyra</h3></a>
+                    <Link className="navbar-brand col-lg-3 me-0" to="/"><h3 className='ms-2 hyra'>Hyra</h3></Link>
                     <div className="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
                         <ul className="navbar-nav col-lg-6 justify-content-lg-center">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
+                                <Link className="nav-link" to="/">Our Teachings</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                                <Link className="nav-link" to="/">About Us</Link>
                             </li>
                         </ul>
-                        <div className="d-lg-flex col-lg-3 justify-content-lg-end">
-                            <button className="btn btn-primary">Button</button>
+                        <div className="d-lg-flex ms-lg-5 col-lg-3">
+                            <button className="mx-lg-3 mx-1 signUpBtn px-lg-3">Sign Up</button>
+                            <button className="mx-lg-3 mx-1 logInBtn px-lg-3">Log in</button>
                         </div>
                     </div>
                 </div>

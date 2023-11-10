@@ -1,0 +1,31 @@
+/* <=============== Navbar Starts ==============> */
+
+.hyra {
+    color: #0802A3;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.signUpBtn {
+    border-radius: 8px;
+    border: 1.5px solid #0802A3;
+    color: #0802A3;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: transparent;
+    line-height: normal;
+}
+
+.signUpBtn:hover {
+    background-color: #0802A3;
+    color: white;
+}
+
+.logInBtn {
+    
+}
