@@ -16,7 +16,7 @@ const Herosection = () => {
                         <p className='smallHero mt-lg-4'>Our Islamic app for kids is designed to inspire and teach in the most enjoyable way. Our app is not just educational; it's an adventure in faith</p>
                     </div>
                     <div className="col-lg-6 col-12 text-center p-5 p-lg-0">
-                        <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" data-bs-touch="false">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
                                     <img src={image1} className="img-fluid p-lg-2 p-4" alt="child image 1"/>
