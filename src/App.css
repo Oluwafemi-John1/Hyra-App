@@ -47,3 +47,21 @@
     text-decoration: underline;
     transition: 3s !important;
 }
+
+/* <=============== Navbar Ends ==============> */
+
+
+
+/* <=============== Herosection Starts ==============> */
+.heroText {
+    color: #121214;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 120% */
+}
+
+
+/* <=============== Herosection ends ==============> */
