@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from './pages/Navbar'
 
 const Home = () => {
   return (
     <>
-        <h1>Welcome to Hyra</h1>
+        <>
+            <Navbar/>
+        </>
     </>
   )
 }
