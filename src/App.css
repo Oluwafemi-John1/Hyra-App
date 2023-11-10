@@ -27,5 +27,23 @@
 }
 
 .logInBtn {
-    
+    border-radius: 8px;
+    border: 1.5px solid #0802A3;
+    color: white;
+    background: #0802A3;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logInBtn:hover {
+    background-color: white;
+    color: #0802A3;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    transition: 3s !important;
 }
