@@ -24,6 +24,16 @@ const Chooseus = () => {
         borderRadius: '8px',
         background: '#FFCD4B'
     }
+
+    let textStyle = {
+        color: '#E5E4FF',
+        textAlign: 'center',
+        fontFamily: 'Inter',
+        fontSize: '16px',
+        fontStyle: 'normal',
+        fontWeight: '500',
+        lineHeight: '24px' /* 150% */
+    }
     return (
         <>
             <p className="text-center mt-lg-5" id='chUs'>Why Choose Us</p>
@@ -31,19 +41,19 @@ const Chooseus = () => {
                 <div className="row g-3 g-lg-0 g-md-0">
                     <div className="col-lg col-md col-5 p-3 mx-lg-5 mx-3" style={styleOne}>
                         <img src={img1} alt="" className='img-fluid' />
-                        <p>Our app contains the fundamental teaching of Islam for Kids</p>
+                        <p style={textStyle} className='my-4'>Our app contains the fundamental teaching of Islam for Kids</p>
                     </div>
                     <div className="col-lg col-md col-5 p-3 mx-lg-5 mx-2" style={styleTwo}>
                         <img src={img2} alt="" className='img-fluid' />
-                        <p>We make it interesting by including the the Stories of the Prophets and his Companions </p>
+                        <p style={textStyle} className='my-4'>We make it interesting by including the the Stories of the Prophets and his Companions </p>
                     </div>
                     <div className="col-lg col-md col-5 p-3 mx-lg-5 mx-3" style={styleThree}>
                         <img src={img3} alt="" className='img-fluid' />
-                        <p>As we all know that Du’a is an essential part of our life as a Muslim. Du’a is also included in our app</p>
+                        <p style={textStyle} className='my-4'>As we all know that Du’a is an essential part of our life as a Muslim. Du’a is also included in our app</p>
                     </div>
                     <div className="col-lg col-md col-5 p-3 mx-lg-5 mx-2" style={styleFour}>
                         <img src={img4} alt="" className='img-fluid' />
-                        <p>Our app contains the 99 Names of Allah</p>
+                        <p style={textStyle} className='my-4'>Our app contains the 99 Names of Allah</p>
                     </div>
                 </div>
             </div>
