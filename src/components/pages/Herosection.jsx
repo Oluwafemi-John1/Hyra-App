@@ -19,32 +19,32 @@ const Herosection = () => {
                         <div id="carouselExampleAutoplaying" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" data-bs-touch="false">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src={image1} className="img-fluid p-lg-2 p-4" alt="child image 1"/>
+                                    <img src={image1} className="img-fluid p-lg-2 p-4" alt="child image 1" />
                                 </div>
                                 <div className="carousel-item">
-                                <img src={image2} className="img-fluid p-lg-2 p-4" alt="child image 2"/>
+                                    <img src={image2} className="img-fluid p-lg-2 p-4" alt="child image 2" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={image3} className="img-fluid p-lg-2 p-4" alt="child image 3"/>
+                                    <img src={image3} className="img-fluid p-lg-2 p-4" alt="child image 3" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={image4} className="img-fluid p-lg-2 p-4" alt="child image 4"/>
+                                    <img src={image4} className="img-fluid p-lg-2 p-4" alt="child image 4" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={image5} className="img-fluid p-lg-2 p-4" alt="child image 5"/>
+                                    <img src={image5} className="img-fluid p-lg-2 p-4" alt="child image 5" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img src={image6} className="img-fluid p-lg-2 p-4" alt="child image 6"/>
+                                    <img src={image6} className="img-fluid p-lg-2 p-4" alt="child image 6" />
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+                            {/* <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button> */}
                         </div>
                     </div>
                     <div className="col-lg-6 col-12 text-center text-lg-start d-lg-none d-md-block" id='bigHero'>
