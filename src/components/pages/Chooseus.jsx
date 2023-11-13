@@ -26,7 +26,7 @@ const Chooseus = () => {
     }
 
     let textStyle = {
-        color: '#E5E4FF',
+        color: '#FFF8E7',
         textAlign: 'center',
         fontFamily: 'Inter',
         fontSize: '16px',

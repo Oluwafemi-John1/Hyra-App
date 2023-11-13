@@ -47,7 +47,7 @@ const Herosection = () => {
                             </button> */}
                         </div>
                     </div>
-                    <div className="col-lg-6 col-12 text-center text-lg-start d-lg-none d-md-block" id='bigHero'>
+                    <div className="col-lg-6 col-12 text-center text-lg-start d-lg-none d-md-block d-block" id='bigHero'>
                         <h1 className='heroText heroTextsm'>Discover a world where education meets excitement</h1>
                         <p className='smallHero smallHerosm mt-lg-4'>Our Islamic app for kids is designed to inspire and teach in the most enjoyable way. Our app is not just educational; it's an adventure in faith</p>
                     </div>
