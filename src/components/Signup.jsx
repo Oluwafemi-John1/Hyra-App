@@ -20,6 +20,22 @@ const Signup = () => {
         lineHeight: 'normal'
     }
 
+    let btnStyle = {
+        borderRadius: '8px',
+        background: '#FFCD4B',
+        color: '#000',
+        textAlign: 'center',
+        fontFamily: 'Inter',
+        fontSize: '16px',
+        fontStyle: 'normal',
+        fontWeight: '700',
+        lineHeight: 'normal',
+        padding: '10px',
+        gap: '10px',
+        border: 'none',
+        height: '50px'
+    }
+
     return (
         <>
             <div className="container mt-5">
@@ -45,6 +61,9 @@ const Signup = () => {
                         <div className="form-group my-2">
                             <label htmlFor="" className='form-label' style={labelStyle}>Confirm Password</label>
                             <input type="text" className='form-controller w-100' />
+                        </div>
+                        <div className="form-group mt-4">
+                            <button style={btnStyle} className='w-100'>Sign Up</button>
                         </div>
                     </div>
                     <div className="col-lg-6 p-2 d-none d-lg-block">

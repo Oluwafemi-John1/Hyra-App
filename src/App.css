@@ -142,4 +142,8 @@
     border: 1px solid #FFCD4B;
 }
 
+.form-controller:active {
+    border: 1px solid #FFCD4B !important;
+}
+
 /* <=============== Signup ends ==============> */
