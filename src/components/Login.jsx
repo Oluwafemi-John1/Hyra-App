@@ -52,8 +52,8 @@ const Login = () => {
     }
 
     let checkBoxStyle = {
-        border-radius: 4px;
-background: #0802A3;
+        borderRadius: '4px',
+        background: '#0802A3'
     }
 
     return (
@@ -74,7 +74,7 @@ background: #0802A3;
                             </div>
                             <div className="d-flex" style={rememStyle}>
                                 <div>
-                                    <input type="checkbox" className='' />
+                                    <input type="checkbox" className='ms-2' style={checkBoxStyle} />
                                     <label htmlFor="">Remember me</label>
                                 </div>
                             </div>
