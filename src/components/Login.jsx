@@ -1,4 +1,6 @@
 import React from 'react'
+import image1 from '../components/assets/images/hyrasignup.png'
+
 
 const Login = () => {
     let headStyle = {
@@ -43,7 +45,7 @@ const Login = () => {
         fontWeight: '700',
         lineHeight: 'normal'
     }
-    
+
     return (
         <>
             <section id='bigSignUp'>
@@ -51,15 +53,7 @@ const Login = () => {
                     <h1 className="text-center d-lg-none d-md-none d-block" style={helloStyle}>Hello!</h1>
                     <div className="row">
                         <div className="col-lg-4 col-11 px-3 py-4 mx-auto" id='signUpDiv'>
-                            <p style={headStyle} className='mb-4'>Create an Account</p>
-                            <div className="form-group my-2">
-                                <label htmlFor="" className='form-label' style={labelStyle}>Name</label>
-                                <input type="text" className='form-controller w-100' />
-                            </div>
-                            <div className="form-group my-2">
-                                <label htmlFor="" className='form-label' style={labelStyle}>Email/Phone Number</label>
-                                <input type="text" className='form-controller w-100' />
-                            </div>
+                            <p style={headStyle} className='mb-4'>Log in to your Account</p>
                             <div className="form-group my-2">
                                 <label htmlFor="" className='form-label' style={labelStyle}>Username</label>
                                 <input type="text" className='form-controller w-100' />
@@ -68,12 +62,8 @@ const Login = () => {
                                 <label htmlFor="" className='form-label' style={labelStyle}>Password</label>
                                 <input type="text" className='form-controller w-100' />
                             </div>
-                            <div className="form-group my-2">
-                                <label htmlFor="" className='form-label' style={labelStyle}>Confirm Password</label>
-                                <input type="text" className='form-controller w-100' />
-                            </div>
                             <div className="form-group mt-4">
-                                <button style={btnStyle} className='w-100'>Sign Up</button>
+                                <button style={btnStyle} className='w-100'>Log in</button>
                             </div>
                         </div>
                         <div className="col-lg-6 p-2 d-none d-lg-block">
