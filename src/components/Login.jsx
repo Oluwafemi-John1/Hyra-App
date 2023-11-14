@@ -46,6 +46,16 @@ const Login = () => {
         lineHeight: 'normal'
     }
 
+    let rememStyle = {
+        alignItems: 'flex-end',
+        gap: '39px'
+    }
+
+    let checkBoxStyle = {
+        border-radius: 4px;
+background: #0802A3;
+    }
+
     return (
         <>
             <section id='bigSignUp'>
@@ -61,6 +71,12 @@ const Login = () => {
                             <div className="form-group my-2">
                                 <label htmlFor="" className='form-label' style={labelStyle}>Password</label>
                                 <input type="text" className='form-controller-in w-100' />
+                            </div>
+                            <div className="d-flex" style={rememStyle}>
+                                <div>
+                                    <input type="checkbox" className='' />
+                                    <label htmlFor="">Remember me</label>
+                                </div>
                             </div>
                             <div className="form-group mt-4">
                                 <button style={btnStyle} className='w-100'>Log in</button>

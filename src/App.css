@@ -142,6 +142,16 @@
     border: 1px solid #FFCD4B;
 }
 
+.form-controller-in {
+    display: flex;
+    /* width: 393px; */
+    height: 50px;
+    padding: 5px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #0802A3;
+}
+
 .form-controller:active {
     border: 1px solid #FFCD4B !important;
 }
