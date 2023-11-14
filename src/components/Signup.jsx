@@ -10,6 +10,16 @@ const Signup = () => {
         fontWeight: '700',
         lineHeight: 'normal'
     }
+
+    let labelStyle = {
+        color: '#121214',
+        fontFamily: 'Inter',
+        fontSize: '16px',
+        fontStyle: 'normal',
+        fontWeight: '400',
+        lineHeight: 'normal'
+    }
+
     return (
         <>
             <div className="container mt-5">
@@ -17,23 +27,23 @@ const Signup = () => {
                     <div className="col-lg-4 col-11 px-3 py-4 mx-auto" id='signUpDiv'>
                         <p style={headStyle} className='mb-4'>Create an Account</p>
                         <div className="form-group my-2">
-                            <label htmlFor="" className='form-label'>Name</label>
+                            <label htmlFor="" className='form-label' style={labelStyle}>Name</label>
                             <input type="text" className='form-controller w-100' />
                         </div>
                         <div className="form-group my-2">
-                            <label htmlFor="" className='form-label'>Name</label>
+                            <label htmlFor="" className='form-label' style={labelStyle}>Email/Phone Number</label>
                             <input type="text" className='form-controller w-100' />
                         </div>
                         <div className="form-group my-2">
-                            <label htmlFor="" className='form-label'>Name</label>
+                            <label htmlFor="" className='form-label' style={labelStyle}>Username</label>
                             <input type="text" className='form-controller w-100' />
                         </div>
                         <div className="form-group my-2">
-                            <label htmlFor="" className='form-label'>Name</label>
+                            <label htmlFor="" className='form-label' style={labelStyle}>Password</label>
                             <input type="text" className='form-controller w-100' />
                         </div>
                         <div className="form-group my-2">
-                            <label htmlFor="" className='form-label'>Name</label>
+                            <label htmlFor="" className='form-label' style={labelStyle}>Confirm Password</label>
                             <input type="text" className='form-controller w-100' />
                         </div>
                     </div>
