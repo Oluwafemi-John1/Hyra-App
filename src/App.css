@@ -146,4 +146,11 @@
     border: 1px solid #FFCD4B !important;
 }
 
+@media screen and (max-width: 478px) {
+    #bigSignUp {
+        background: #FFCD4B;
+        padding: 20px 0px 290px 0px;
+    }
+}
+
 /* <=============== Signup ends ==============> */
