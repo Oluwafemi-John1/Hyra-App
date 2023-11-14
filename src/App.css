@@ -132,4 +132,14 @@
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
+.form-controller {
+    display: flex;
+    /* width: 393px; */
+    height: 50px;
+    padding: 5px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid #FFCD4B;
+}
+
 /* <=============== Signup ends ==============> */

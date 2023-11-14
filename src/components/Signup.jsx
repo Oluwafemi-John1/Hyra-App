@@ -14,11 +14,27 @@ const Signup = () => {
         <>
             <div className="container mt-5">
                 <div className="row">
-                    <div className="col-lg-6 px-3 py-4" id='signUpDiv'>
+                    <div className="col-lg-4 col-11 px-3 py-4 mx-auto" id='signUpDiv'>
                         <p style={headStyle} className='mb-4'>Create an Account</p>
                         <div className="form-group my-2">
                             <label htmlFor="" className='form-label'>Name</label>
-                            <input type="text" className='form-control' />
+                            <input type="text" className='form-controller w-100' />
+                        </div>
+                        <div className="form-group my-2">
+                            <label htmlFor="" className='form-label'>Name</label>
+                            <input type="text" className='form-controller w-100' />
+                        </div>
+                        <div className="form-group my-2">
+                            <label htmlFor="" className='form-label'>Name</label>
+                            <input type="text" className='form-controller w-100' />
+                        </div>
+                        <div className="form-group my-2">
+                            <label htmlFor="" className='form-label'>Name</label>
+                            <input type="text" className='form-controller w-100' />
+                        </div>
+                        <div className="form-group my-2">
+                            <label htmlFor="" className='form-label'>Name</label>
+                            <input type="text" className='form-controller w-100' />
                         </div>
                     </div>
                     <div className="col-lg-6 p-2 d-none d-lg-block">
