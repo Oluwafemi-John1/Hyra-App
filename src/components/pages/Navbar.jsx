@@ -1,7 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 const Navbar = () => {
+    let navigate = useNavigate()
     let linkStyle = {
         color: '#121214',
         fontFamily: 'Inter',
@@ -9,6 +11,14 @@ const Navbar = () => {
         fontStyle: 'normal',
         fontWeight: '500',
         lineHeight: 'normal'
+    }
+
+    const signUp = () => {
+        navigate('/signup')
+    }
+
+    const logIn = () => {
+        navigate('/login')
     }
     return (
         <>
@@ -32,8 +42,8 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <div className="d-lg-flex ms-lg-5 col-lg-3">
-                            <button className="mx-lg-3 mx-1 signUpBtn px-lg-3 py-lg-2">Sign Up</button>
-                            <button className="mx-lg-3 mx-1 logInBtn px-lg-3 py-lg-2">Log in</button>
+                            <button className="mx-lg-3 mx-1 signUpBtn px-lg-3 py-lg-2" onClick={signUp}>Sign Up</button>
+                            <button className="mx-lg-3 mx-1 logInBtn px-lg-3 py-lg-2" onClick={logIn}>Log in</button>
                         </div>
                     </div>
                 </div>
