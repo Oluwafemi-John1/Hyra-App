@@ -7,9 +7,11 @@ const Home = () => {
   return (
     <>
         <>
-            <Navbar/>
-            <Herosection/>
-            <Chooseus/>
+            <div id='homepage'>
+                <Navbar/>
+                <Herosection/>
+                <Chooseus/>
+            </div>
         </>
     </>
   )
