@@ -120,3 +120,16 @@
     font-weight: 700;
     line-height: normal;
 }
+
+/* <=============== Chooseus ends ==============> */
+
+
+/* <=============== Signup starts ==============> */
+
+#signUpDiv {
+    border-radius: 16px;
+    background: #FFF;
+    /* box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.05), 0px 4px 4px 4px rgba(0, 0, 0, 0.05), 0px 4px 4px 4px rgba(0, 0, 0, 0.05); */
+}
+
+/* <=============== Signup ends ==============> */
