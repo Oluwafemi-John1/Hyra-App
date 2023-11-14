@@ -1,6 +1,6 @@
-import React from 'react'
-import image1 from '../components/assets/images/hyrasignup.png'
-
+import React from 'react';
+import image1 from '../components/assets/images/hyrasignup.png';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     let headStyle = {
@@ -38,7 +38,7 @@ const Login = () => {
     }
 
     let helloStyle = {
-        color: '#121214',
+        color: '#FFF',
         fontFamily: 'Inter',
         fontSize: '24px',
         fontStyle: 'normal',
@@ -56,13 +56,28 @@ const Login = () => {
         background: '#0802A3'
     }
 
+    let bottomStyle = {
+        display: 'flex',
+        alignItems: 'flex-start',
+        gap: '153px'
+    }
+
+    let paraStyle = {
+        color: '#0802A3',
+        fontFamily: 'Inter',
+        fontSize: '16px',
+        fontStyle: 'normal',
+        fontWeight: '700',
+        lineHeight: 'normal'
+    }
+
     return (
         <>
-            <section id='bigSignUp'>
+            <section id='bigSignIn'>
                 <div className="container mt-5">
-                    <h1 className="text-center d-lg-none d-md-none d-block" style={helloStyle}>Hello!</h1>
+                    <h1 className="text-center d-lg-none d-md-none d-block" style={helloStyle}>Welcome!</h1>
                     <div className="row">
-                        <div className="col-lg-4 col-11 px-3 py-4 mx-auto" id='signUpDiv'>
+                        <div className="col-lg-4 col-12 px-3 py-4 mx-auto" id='signUpDiv'>
                             <p style={headStyle} className='mb-4'>Log in to your Account</p>
                             <div className="form-group my-2">
                                 <label htmlFor="" className='form-label' style={labelStyle}>Username</label>
@@ -73,13 +88,18 @@ const Login = () => {
                                 <input type="text" className='form-controller-in w-100' />
                             </div>
                             <div className="d-flex" style={rememStyle}>
-                                <div>
+                                <p>
                                     <input type="checkbox" className='ms-2' style={checkBoxStyle} />
                                     <label htmlFor="">Remember me</label>
-                                </div>
+                                </p>
+                                <p><Link to=''>Forgot Password?</Link></p>
                             </div>
                             <div className="form-group mt-4">
                                 <button style={btnStyle} className='w-100'>Log in</button>
+                            </div>
+                            <div style={bottomStyle}>
+                                <p>Don't have an account?</p>
+                                <p style={paraStyle}><Link to='/signup'>Sign Up</Link></p>
                             </div>
                         </div>
                         <div className="col-lg-6 p-2 d-none d-lg-block">

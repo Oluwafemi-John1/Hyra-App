@@ -152,14 +152,14 @@
     border: 1px solid #0802A3;
 }
 
-.form-controller:active {
-    border: 1px solid #FFCD4B !important;
-}
-
 @media screen and (max-width: 478px) {
     #bigSignUp {
         background: #FFCD4B;
         padding: 20px 0px 290px 0px;
+    }
+    #bigSignIn {
+        background: #0802A3;
+        padding: 64px 0px 292px 0px;
     }
 }
 
