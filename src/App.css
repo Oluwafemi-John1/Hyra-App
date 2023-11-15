@@ -2,6 +2,13 @@
     overflow-x: hidden;
 }
 
+#nav {
+    /* position: sticky !important; */
+    /* top: 0; */
+    z-index: 1000;
+    /* height: 200px; */
+}
+
 /* <=============== Navbar Starts ==============> */
 
 .hyra {
