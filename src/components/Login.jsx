@@ -97,7 +97,7 @@ const Login = () => {
                             <div className="form-group mt-4">
                                 <button style={btnStyle} className='w-100'>Log in</button>
                             </div>
-                            <div style={bottomStyle}>
+                            <div style={bottomStyle} className='mt-lg-5 mt-md-5 mt-2'>
                                 <p>Don't have an account?</p>
                                 <p style={paraStyle}><Link to='/signup'>Sign Up</Link></p>
                             </div>
