@@ -5,6 +5,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Home from './components/Home'
 import Signup from './components/Signup';
 import Login from './components/Login';
+import Error404 from './components/Error404';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Route path='/' element={<Home/>} />
                 <Route path='/signup' element={<Signup/>} />
                 <Route path='/login' element={<Login/>} />
+                <Route path='*' element={<Error404/>} />
             </Routes>
         </>
     )

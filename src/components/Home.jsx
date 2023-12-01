@@ -11,7 +11,6 @@ const Home = () => {
                 <Navbar/>
                 <Herosection/>
                 <Chooseus/>
-                <h1>Hey</h1>
             </div>
         </>
     </>

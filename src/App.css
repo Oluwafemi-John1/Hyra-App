@@ -168,6 +168,9 @@
         background: #0802A3;
         padding: 64px 0px 292px 0px;
     }
+    #bigSignIn, #bigSignUp {
+        overflow-y: hidden;
+    }
 }
 
 /* <=============== Signup ends ==============> */
