@@ -26,7 +26,7 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className='text-center text-light py-2' style={bottomStyle2}>
-                    2023 Copyrights: Hyra
+                    2023 Copyright: Hyra
                 </div>
             </div>
         </>

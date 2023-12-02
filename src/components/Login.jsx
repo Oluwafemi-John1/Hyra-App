@@ -1,6 +1,7 @@
 import React from 'react';
 import image1 from '../components/assets/images/hyrasignup.png';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 
 const Login = () => {
     let headStyle = {
@@ -110,6 +111,7 @@ const Login = () => {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </>
     )
 }
