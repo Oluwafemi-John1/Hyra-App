@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './pages/Navbar'
 import Herosection from './pages/Herosection'
 import Chooseus from './pages/Chooseus'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
                 <Herosection/>
                 <Chooseus/>
             </div>
+            <Footer/>
         </>
     </>
   )

@@ -1,5 +1,6 @@
 import React from 'react';
 import image1 from '../components/assets/images/hyrasignup.png'
+import Footer from './Footer';
 
 const Signup = () => {
     let headStyle = {
@@ -85,6 +86,7 @@ const Signup = () => {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </>
     )
 }

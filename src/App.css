@@ -139,6 +139,11 @@
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
+#bigSignUp {
+    height: 100vh;
+    /* border: 2px solid red; */
+}
+
 .form-controller {
     display: flex;
     /* width: 393px; */
