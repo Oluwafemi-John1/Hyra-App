@@ -1,3 +1,21 @@
+@media only screen and (min-width:768px) {
+    /* body {
+        height: 400vh;
+    } */
+    
+    ::-webkit-scrollbar {
+        width: 7px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #FFCD4B;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #0802A3;
+    }
+}
+
 #homepage {
     overflow-x: hidden;
 }

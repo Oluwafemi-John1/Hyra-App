@@ -22,8 +22,7 @@ const Navbar = () => {
     }
     return (
         <>
-        <div className='h-100'>
-            <nav className="navbar navbar-expand-lg shadow-sm py-lg-1 sticky-top" id='nav' aria-label="Thirteenth navbar example">
+            <nav className="navbar navbar-expand-lg shadow-sm py-lg-1 sticky-top top-0" id='nav' aria-label="Thirteenth navbar example">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -49,8 +48,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-
-        </div>
         </>
     )
 }
