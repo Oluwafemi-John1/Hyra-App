@@ -47,7 +47,9 @@ const Teachings = () => {
         gap: '16px',
         flexShrink: '0',
         borderRadius: '8px',
-        background: '#0802A3'
+        background: '#0802A3',
+        color: '#fff',
+        textDecoration: 'none'
     }
 
 
@@ -69,7 +71,7 @@ const Teachings = () => {
                     </Link>
                 </div>
             </div>
-            <Link to='' style={btnStyle}>
+            <Link to='' style={btnStyle} className='mx-auto my-3'>
                 View all
                 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" viewBox="0 0 25 26" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M23.2251 13.3604L16.0303 20.0891L14.9362 18.9205L20.1376 14.0572L2.07896 13.4505L2.13267 11.8514L20.1913 12.4581L15.3279 7.25825L16.4981 6.16412L23.2251 13.3604Z" fill="white" />
