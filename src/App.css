@@ -23,7 +23,7 @@
 #nav {
     /* position: sticky !important; */
     /* top: 0; */
-    z-index: 1000;
+    z-index: 1 !important;
     /* height: 200px; */
 }
 
