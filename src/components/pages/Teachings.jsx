@@ -10,7 +10,8 @@ const Teachings = () => {
         fontFamily: 'Inter',
         fontSize: '32px',
         fontWeight: 700,
-        lineHeight: 'normal'
+        lineHeight: 'normal',
+        padding: '70px 0'
     }
 
     let styleTwo = {
@@ -33,6 +34,10 @@ const Teachings = () => {
         fontSize: '32px',
         fontWeight: 700,
         lineHeight: 'normal'
+    }
+
+    let spacy = {
+        margin: '50px 0'
     }
     return (
         <>
