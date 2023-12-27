@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './pages/Navbar'
+import teach1 from '../components/assets/images/teach1.png'
 
 const Ourteachings = () => {
     return (
