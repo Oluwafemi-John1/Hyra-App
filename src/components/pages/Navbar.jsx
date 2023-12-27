@@ -1,5 +1,4 @@
 import React from 'react';
-import Headroom from 'react-headroom';
 import { Link, useNavigate } from 'react-router-dom';
 
 
@@ -24,7 +23,6 @@ const Navbar = () => {
     }
     return (
         <>
-        <Headroom>
             <nav className="navbar navbar-expand-lg shadow-sm py-lg-1" id='nav' aria-label="Thirteenth navbar example">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +49,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </nav>
-            </Headroom>
         </>
     )
 }
