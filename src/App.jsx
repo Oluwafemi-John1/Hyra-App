@@ -7,6 +7,7 @@ import Signup from './components/Signup';
 import Login from './components/Login';
 import Error404 from './components/Error404';
 import 'animate.css';
+import Ourteachings from './components/Ourteachings';
 
 function App() {
     return (
