@@ -30,7 +30,7 @@ const Navbar = () => {
                     </button>
 
                     <div className="collapse navbar-collapse d-lg-flex justify-content-lg-between" id="navbarsExample11">
-                        <Link className="navbar-brand col-lg-3 me-0" to="/"><h3 className='ms-lg-5 hyra'>Hyra</h3></Link>
+                        <Link className="navbar-brand col-lg-3 me-0 animate__animated animate__pulse" to="/"><h3 className='ms-lg-5 hyra'>Hyra</h3></Link>
                         <ul className="navbar-nav col-lg-6 justify-content-lg-center">
                             <li className="nav-item">
                                 <Link className="nav-link active" aria-current="page" to="/" style={linkStyle}>Home</Link>
