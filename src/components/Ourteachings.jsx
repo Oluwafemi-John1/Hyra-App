@@ -5,7 +5,12 @@ const Ourteachings = () => {
     return (
         <>
             <Navbar/>
-            <div className="container border border-3 border-info teach">eeeu</div>
+            <div className="container border text-center border-3 border-info teach">
+                <div className="row mx-auto">
+                    <div className="col-lg col-md col-12 border mx-lg-4 mx-md-2 mx-1">djdj</div>
+                    <div className="col-lg col-md col-12 border mx-lg-4 mx-md-2 mx-1">djdj</div>
+                </div>
+            </div>
         </>
     )
 }
