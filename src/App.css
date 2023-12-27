@@ -207,3 +207,17 @@
 }
 
 /* <=============== Signup ends ==============> */
+
+/* <=============== Ourteachings starts ==============> */
+/* @media screen and (min-width: 992px) {
+    .teach {
+        margin-top: 120px;
+    }
+} */
+
+.teach {
+    margin-top: 100px !important;
+}
+
+
+/* <=============== Ourteachings ends ==============> */
