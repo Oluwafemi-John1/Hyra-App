@@ -121,6 +121,10 @@
     /* 150% */
 }
 
+.herohero {
+    margin-top: 100px;
+}
+
 @media screen and (min-width: 992px) {
     #bigHero {
         padding: 50px 120px !important;
