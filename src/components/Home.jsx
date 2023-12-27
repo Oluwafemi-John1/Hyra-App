@@ -6,19 +6,19 @@ import Footer from './Footer'
 import Teachings from './pages/Teachings'
 
 const Home = () => {
-  return (
-    <>
+    return (
         <>
-            <div id='homepage'>
-                <Navbar/>
-                <Herosection/>
-                <Chooseus/>
-                <Teachings/>
-            </div>
-            <Footer/>
+            <>
+                <div id='homepage'>
+                    <Navbar />
+                    <Herosection />
+                    <Chooseus />
+                    <Teachings />
+                </div>
+                <Footer />
+            </>
         </>
-    </>
-  )
+    )
 }
 
 export default Home
