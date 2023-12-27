@@ -7,9 +7,12 @@ import image5 from '../assets/images/hyra5.png'
 import image6 from '../assets/images/hyra6.png'
 
 const Herosection = () => {
+    let heightStyle = {
+        marginTop: '100px'
+    }
     return (
         <>
-            <div className="container-fluid mt-lg-5">
+            <div className="container-fluid" style={heightStyle}>
                 <div className="row">
                     <div className="col-lg-6 col-12 text-center text-lg-start d-none d-lg-block" id='bigHero'>
                         <h1 className='heroText'>Discover a world where education meets excitement</h1>
