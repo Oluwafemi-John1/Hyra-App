@@ -36,18 +36,18 @@ const Teachings = () => {
     }
     return (
         <>
-            <p className="text-center mt-lg-5" id='chUs'>Our Teachings</p>
+            <p className="text-center mt-lg-5 mt-3" id='chUs'>Our Teachings</p>
             <div className="container mx-auto text-center mt-lg-5">
                 <div className="row g-3 g-lg-0 g-md-0">
-                    <Link className="col-lg col-md col-5 mx-lg-4 mx-2 d-flex justify-content-center align-items-center" style={styleOne}>
+                    <Link className="col-lg col-md col-11 mx-lg-4 mx-2 d-flex justify-content-center align-items-center" style={styleOne}>
                         <p className='p-5'>Pillars of Islam</p>
                     </Link>
 
-                    <Link className="col-lg col-md col-5 p-3 mx-lg-4 mx-2 d-flex justify-content-center align-items-center" style={styleTwo}>
+                    <Link className="col-lg col-md col-11 p-3 mx-lg-4 mx-2 d-flex justify-content-center align-items-center" style={styleTwo}>
                         <p className='p-5'>Articles of Faith</p>
                     </Link>
 
-                    <Link className="col-lg col-md col-5 p-3 mx-lg-4 mx-2 d-flex justify-content-center align-items-center" style={styleThree}>
+                    <Link className="col-lg col-md-7 mt-md-4 mt-lg-0 col-11 p-3 mx-lg-4 mx-2 d-flex justify-content-center align-items-center mx-md-auto" style={styleThree}>
                         <p className='p-5'>Stories of the Prophets</p>
                     </Link>
                 </div>
