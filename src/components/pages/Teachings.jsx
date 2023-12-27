@@ -34,14 +34,11 @@ const Teachings = () => {
                     </Link>
 
                     <Link className="col-lg col-md col-5 p-3 mx-lg-4 mx-2 d-flex justify-content-center align-items-center" style={styleTwo}>
-                        <div>
-                            <p className='p-5'>We make it interesting by including the the Stories of the Prophets and his Companions </p>
-                        </div>
+                        <p className='p-5'>Articles of Faith</p>
                     </Link>
+
                     <Link className="col-lg col-md col-5 p-3 mx-lg-4 mx-2 d-flex justify-content-center align-items-center" style={styleThree}>
-                        <div>
-                            <p className='p-5'>As we all know that Du’a is an essential part of our life as a Muslim. Du’a is also included in our app</p>
-                        </div>
+                        <p className='p-5'>Stories of the Prophets</p>
                     </Link>
                 </div>
             </div>
