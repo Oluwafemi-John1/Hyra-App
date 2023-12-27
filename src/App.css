@@ -2,15 +2,15 @@
     /* body {
         height: 400vh;
     } */
-    
+
     ::-webkit-scrollbar {
         width: 7px;
     }
-    
+
     ::-webkit-scrollbar-track {
         background: #FFCD4B;
     }
-    
+
     ::-webkit-scrollbar-thumb {
         background: #0802A3;
     }
@@ -22,10 +22,10 @@
 
 #nav {
     position: fixed;
-  top: 0;
-  /* bottom: 1000px !important;  */
-  width: 100%;
-  z-index: 1;
+    top: 0;
+    /* bottom: 1000px !important;  */
+    width: 100%;
+    z-index: 10;
     /* height: 200px; */
 }
 
@@ -125,7 +125,7 @@
     .herohero {
         margin-top: 100px;
     }
-    
+
     #bigHero {
         padding: 50px 120px !important;
     }
@@ -163,7 +163,8 @@
     box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.05);
 }
 
-#bigSignUp, #bigSignIn {
+#bigSignUp,
+#bigSignIn {
     height: 100vh;
     /* border: 2px solid red; */
 }
