@@ -15,7 +15,8 @@ const Ourteachings = () => {
         fontSize: '16px',
         fontStyle: 'normal',
         fontWeight: '500',
-        lineHeight: '24px'
+        lineHeight: '24px',
+        textAlign: 'justify'
     }
 
     let boxTwo = {
@@ -29,7 +30,8 @@ const Ourteachings = () => {
         fontSize: '16px',
         fontStyle: 'normal',
         fontWeight: '500',
-        lineHeight: '24px'
+        lineHeight: '24px',
+        textAlign: 'justify'
     }
 
     return (
