@@ -8,6 +8,7 @@ import Login from './components/Login';
 import Error404 from './components/Error404';
 import 'animate.css';
 import Ourteachings from './components/Ourteachings';
+import Aboutus from './components/Aboutus';
 
 function App() {
     return (
@@ -20,7 +21,6 @@ function App() {
                 <Route path='/ourteachings' element={<Ourteachings/>} />
                 <Route path='/aboutus' element={<Aboutus/>} />
             </Routes>
-           
         </>
     )
 }
