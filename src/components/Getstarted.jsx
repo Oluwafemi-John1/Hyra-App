@@ -1,5 +1,6 @@
 import React from 'react'
 import simage from '../components/assets/images/simage.png'
+
 const Getstarted = () => {
     return (
         <>
