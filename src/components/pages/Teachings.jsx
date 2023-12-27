@@ -16,13 +16,23 @@ const Teachings = () => {
     let styleTwo = {
         borderRadius: '8px',
         border: '1px solid #FF7676',
-        textDecoration: 'none'
+        textDecoration: 'none',
+        color: '#4F0101',
+        fontFamily: 'Inter',
+        fontSize: '32px',
+        fontWeight: 700,
+        lineHeight: 'normal'
     }
 
     let styleThree = {
         borderRadius: '8px',
         border: '1px solid #FF4B91',
-        textDecoration: 'none'
+        textDecoration: 'none',
+        color: '#4F0101',
+        fontFamily: 'Inter',
+        fontSize: '32px',
+        fontWeight: 700,
+        lineHeight: 'normal'
     }
     return (
         <>
