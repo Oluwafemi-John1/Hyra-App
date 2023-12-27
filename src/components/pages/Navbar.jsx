@@ -39,7 +39,7 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/" style={linkStyle}>Our Teachings</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/" style={linkStyle}>About Us</Link>
+                                <Link className="nav-link" to="/aboutus" style={linkStyle}>About Us</Link>
                             </li>
                         </ul>
                         <div className="d-lg-flex ms-lg-5 col-lg-3">
