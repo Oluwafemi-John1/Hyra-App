@@ -13,7 +13,7 @@ const Getstarted = () => {
 
     return (
         <>
-            <div className='container-fluid get-started-with-us'>
+            <div className='container-fluid get-started-with-us mt-lg-5'>
                 <div className="row">
                     <div className="col-6 p-lg-5 p-md-3 p-1">
                         <p style={paraStyle} className='paraGetStarted'>The Prophet (S.A.W) said “Seeking knowledge is an obligation upon every Muslim”</p>
