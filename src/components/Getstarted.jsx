@@ -23,7 +23,7 @@ const Getstarted = () => {
                 <div className="row">
                     <div className="col-6 p-lg-5 p-md-3 p-1">
                         <p style={paraStyle} className='paraGetStarted'>The Prophet (S.A.W) said “Seeking knowledge is an obligation upon every Muslim”</p>
-                        <Link></Link>
+                        <Link style={linkStyle}>Get started with us </Link>
                     </div>
                     <div className="col-6 py-3 text-end pe-5">
                         <img src={simage} alt="" className="img-fluid" />
