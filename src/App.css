@@ -228,6 +228,17 @@
 /* <=============== Getstarted starts ==============> */
 .get-started-with-us {
     background: #FF4B91;
-    
 }
+
+.paraGetStarted {
+    padding: 5px 12%;
+}
+
+@media screen and (max-width:478px) {
+    .paraGetStarted {
+        font-size: 16px !important;
+        padding: 5px;
+    }
+}
+
 /* <=============== Getstarted ends ==============> */
