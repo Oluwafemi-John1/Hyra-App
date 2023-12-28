@@ -23,7 +23,12 @@ const Getstarted = () => {
                 <div className="row">
                     <div className="col-6 p-lg-5 p-md-3 p-1">
                         <p style={paraStyle} className='paraGetStarted'>The Prophet (S.A.W) said “Seeking knowledge is an obligation upon every Muslim”</p>
-                        <Link style={linkStyle}>Get started with us </Link>
+                        <Link style={linkStyle}>
+                            Get started with us
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7251 13.3603L16.5303 20.0889L15.4362 18.9204L20.6376 14.057L2.57896 13.4504L2.63267 11.8513L20.6913 12.4579L15.8279 7.25813L16.9981 6.164L23.7251 13.3603Z" fill="#FF4B91" />
+                            </svg>
+                        </Link>
                     </div>
                     <div className="col-6 py-3 text-end pe-5">
                         <img src={simage} alt="" className="img-fluid" />
