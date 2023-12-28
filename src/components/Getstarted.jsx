@@ -14,7 +14,16 @@ const Getstarted = () => {
 
     let linkStyle = {
         borderRadius: '5.821px',
-        background: '#FFF'
+        background: '#FFF',
+        color: '#FF4B91',
+        fontFamily: 'Inter',
+        fontSize: '20px',
+        fontStyle: 'normal',
+        fontWeight: '700',
+        lineHeight: 'normal',
+        padding: '10px',
+        textDecoration: 'none',
+        margin: '80px'
     }
 
     return (
