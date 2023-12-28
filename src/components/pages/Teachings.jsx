@@ -56,7 +56,7 @@ const Teachings = () => {
     return (
         <>
             <p className="text-center mt-lg-5 mt-3" id='chUs'>Our Teachings</p>
-            <div className="container mx-auto text-center mt-lg-5">
+            <div className="container mx-auto text-center mt-lg-4">
                 <div className="row g-3 g-lg-0 g-md-0">
                     <Link className="col-lg col-md col-11 mx-lg-4 mx-2 d-flex justify-content-center align-items-center" style={styleOne}>
                         <p className='p-5'>Pillars of Islam</p>
