@@ -34,10 +34,10 @@ const Navbar = () => {
                                 <Link className="nav-link active navText" aria-current="page" to="/" onClick={home} style={{color: homeColor}}>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/ourteachings" style={linkStyle}>Our Teachings</Link>
+                                <Link className="nav-link" to="/ourteachings" style={{color: homeColor}}>Our Teachings</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/aboutus" style={linkStyle}>About Us</Link>
+                                <Link className="nav-link" to="/aboutus" style={{color: homeColor}}>About Us</Link>
                             </li>
                         </ul>
                         <div className="d-lg-flex ms-lg-5 col-lg-3">
