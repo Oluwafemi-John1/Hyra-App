@@ -5,13 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 const Navbar = () => {
     const [homeColor, sethomeColor] = useState('#121214')
     let navigate = useNavigate()
-    let linkStyle = {
-        fontFamily: 'Inter',
-        fontSize: '20px',
-        fontStyle: 'normal',
-        fontWeight: '500',
-        lineHeight: 'normal'
-    }
+    
 
     const signUp = () => {
         navigate('/signup')
@@ -37,7 +31,7 @@ const Navbar = () => {
                         <Link className="navbar-brand col-lg-3 me-0 animate__animated animate__pulse animate__delay-2s" to="/"><h3 className='ms-lg-5 hyra'>Hyra</h3></Link>
                         <ul className="navbar-nav col-lg-6 justify-content-lg-center">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/" onClick={home} style={linkStyle}>Home</Link>
+                                <Link className="nav-link active navText" aria-current="page" to="/" onClick={home} style={{color: homeColor}}>Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/ourteachings" style={linkStyle}>Our Teachings</Link>
