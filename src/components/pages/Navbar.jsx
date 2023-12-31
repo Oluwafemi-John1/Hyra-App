@@ -36,13 +36,12 @@ const Navbar = () => {
     }
 
     const about = () => {
-        if (homeColor === 'blue' || aboutColor === 'blue') {
+        if (homeColor === 'blue' || teachColor === 'blue') {
             console.error('nothing here');
         } else {
-            navigate('/ourteachings')
-            setteachColor('blue')
+            navigate('/aboutus')
+            setaboutColor('blue')
         }
-        setaboutColor('blue')
     }
 
     return (
@@ -57,13 +56,13 @@ const Navbar = () => {
                         <Link className="navbar-brand col-lg-3 me-0 animate__animated animate__pulse animate__delay-2s" to="/"><h3 className='ms-lg-5 hyra'>Hyra</h3></Link>
                         <ul className="navbar-nav col-lg-6 justify-content-lg-center">
                             <li className="nav-item">
-                                <Link className="nav-link active navText" aria-current="page" to="/" onClick={home} style={{color: homeColor}}>Home</Link>
+                                <Link className="nav-link active navText" aria-current="page" onClick={home} style={{color: homeColor}}>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link navText" to="/ourteachings" style={{color: teachColor}} onClick={teach}>Our Teachings</Link>
+                                <Link className="nav-link navText" style={{color: teachColor}} onClick={teach}>Our Teachings</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link navText" to="/aboutus" style={{color: aboutColor}} onClick={about}>About Us</Link>
+                                <Link className="nav-link navText" style={{color: aboutColor}} onClick={about}>About Us</Link>
                             </li>
                         </ul>
                         <div className="d-lg-flex ms-lg-5 col-lg-3">
