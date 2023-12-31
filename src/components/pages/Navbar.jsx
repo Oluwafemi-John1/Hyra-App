@@ -21,6 +21,11 @@ const Navbar = () => {
     const logIn = () => {
         navigate('/login')
     }
+
+    const home = () => {
+        alert('yes')
+    }
+
     return (
         <>
             <nav className="navbar navbar-expand-lg shadow-sm py-lg-1 bg-light" id='nav' aria-label="Thirteenth navbar example">
@@ -33,7 +38,7 @@ const Navbar = () => {
                         <Link className="navbar-brand col-lg-3 me-0 animate__animated animate__pulse animate__delay-2s" to="/"><h3 className='ms-lg-5 hyra'>Hyra</h3></Link>
                         <ul className="navbar-nav col-lg-6 justify-content-lg-center">
                             <li className="nav-item">
-                                <Link className="nav-link active" aria-current="page" to="/" style={linkStyle}>Home</Link>
+                                <Link className="nav-link active" aria-current="page" to="/" onClick={home} style={linkStyle}>Home</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/ourteachings" style={linkStyle}>Our Teachings</Link>
