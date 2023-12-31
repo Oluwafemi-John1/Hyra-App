@@ -5,6 +5,7 @@ const Aboutus = () => {
   return (
     <>
         <Navbar/>
+        
     </>
   )
 }
