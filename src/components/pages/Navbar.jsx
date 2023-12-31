@@ -18,7 +18,11 @@ const Navbar = () => {
     }
     
     const home = () => {
-        sethomeColor('blue')
+        if (teachColor == 'blue' || aboutColor === 'blue') {
+            console.error('nothing here');
+        } else {
+            sethomeColor('blue')
+        }
     }
 
     const teach = () => {
