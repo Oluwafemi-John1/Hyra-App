@@ -19,15 +19,16 @@ const Navbar = () => {
     
     const home = () => {
         if (teachColor === 'blue' || aboutColor === 'blue') {
-            console.error('nothing here');
-        } else {
             navigate('/')
-            sethomeColor('blue')
+            sethomeColor('#121214')
+        } else {
+            
         }
     }
 
     const teach = () => {
         if (homeColor === 'blue' || aboutColor === 'blue') {
+            navigate('/ourteachings')
             console.error('nothing here');
         } else {
             navigate('/ourteachings')
@@ -37,6 +38,7 @@ const Navbar = () => {
 
     const about = () => {
         if (homeColor === 'blue' || teachColor === 'blue') {
+            navigate('/aboutus')
             console.error('nothing here');
         } else {
             navigate('/aboutus')
