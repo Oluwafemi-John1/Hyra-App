@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 
-
 const Navbar = () => {
+    const [homeColor, sethomeColor] = useState('#121214')
     let navigate = useNavigate()
     let linkStyle = {
-        color: '#121214',
         fontFamily: 'Inter',
         fontSize: '20px',
         fontStyle: 'normal',
