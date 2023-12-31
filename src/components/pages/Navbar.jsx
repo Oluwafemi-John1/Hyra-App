@@ -27,11 +27,21 @@ const Navbar = () => {
     }
 
     const teach = () => {
-        
-        setteachColor('blue')
+        if (homeColor === 'blue' || aboutColor === 'blue') {
+            console.error('nothing here');
+        } else {
+            navigate('/ourteachings')
+            setteachColor('blue')
+        }
     }
 
     const about = () => {
+        if (homeColor === 'blue' || aboutColor === 'blue') {
+            console.error('nothing here');
+        } else {
+            navigate('/ourteachings')
+            setteachColor('blue')
+        }
         setaboutColor('blue')
     }
 
