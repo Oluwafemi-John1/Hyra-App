@@ -4,9 +4,11 @@ import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
     const [homeColor, sethomeColor] = useState('#121214')
+    const [teachColor, setteachColor] = useState('#121214')
+    const [aboutColor, setaboutColor] = useState('#121214')
+
     let navigate = useNavigate()
     
-
     const signUp = () => {
         navigate('/signup')
     }
@@ -14,9 +16,17 @@ const Navbar = () => {
     const logIn = () => {
         navigate('/login')
     }
-
+    
     const home = () => {
-        alert('yes')
+        sethomeColor('blue')
+    }
+
+    const teach = () => {
+        setteachColor('blue')
+    }
+
+    const about = () => {
+        setaboutColor('blue')
     }
 
     return (
@@ -34,10 +44,10 @@ const Navbar = () => {
                                 <Link className="nav-link active navText" aria-current="page" to="/" onClick={home} style={{color: homeColor}}>Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/ourteachings" style={{color: homeColor}}>Our Teachings</Link>
+                                <Link className="nav-link navText" to="/ourteachings" style={{color: teachColor}} onClick={teach}>Our Teachings</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/aboutus" style={{color: homeColor}}>About Us</Link>
+                                <Link className="nav-link navText" to="/aboutus" style={{color: aboutColor}} onClick={about}>About Us</Link>
                             </li>
                         </ul>
                         <div className="d-lg-flex ms-lg-5 col-lg-3">
